@@ -149,5 +149,39 @@
         </div>
       </div>
     </header>
+
+    <section class="how-made container">
+      <h2 class="how-made-title">hOW IT’S made?</h2>
+
+      <div class="how-made-poster">
+        <div
+          class="how-made-poster-wrap"
+          data-how-made-push-play
+          data-how-made-hide
+        >
+          <img
+            class="how-made-poster-pic"
+            src="./images/how-made-poster.jpeg"
+            alt="chocolate making"
+          />
+          <svg class="how-made-poster-icon">
+            <use href="./images/icons.svg#icon-video-play"></use>
+          </svg>
+        </div>
+
+        <iframe
+          class="how-made-poster-video"
+          id="how-made-video"
+          poster="./images/how-made-poster.jpeg"
+          src="https://www.youtube.com/embed/5vWFvLwfYeE?start=38"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen="false"
+        ></iframe>
+      </div>
+    </section>
+
+    <script src="./js/how-made-video.js"></script>
   </body>
 </html>
